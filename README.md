@@ -5,17 +5,27 @@ probabilistic First-Take-All feature for human activity recognition from sensor 
 
 # Instruction
 
-A preprocessed Smpartphone-based Human Activity Dataset is provided to repeat the experiment presented in the paper.
-The original Dataset can be found at https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+1) A preprocessed Smpartphone-based Human Activity Dataset is provided to repeat the experiment presented in the paper.The original Dataset can be found at https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones In the experiment, the 30 subjects of the dataset are evenly split into 5 groups and the subject-based Leave-one-out cross-validation is employed for the performance evaluation. The final result is the average of the results of the above 5 runs.  Subject grouping policy is as follows
+
+Group     Subjects
+-------------------------
+Group1: 1 2 3 4 5 6
+Group2: 7 8 9 10 11 12
+Group3: 13 14 15 16 17 18
+Group4: 19 20 21 22 23 24
+Group5: 25 26 27 28 29 30
 
 
-Run the scriptRepeatExperimentResult.m to get pFTA classification results based on the optimized projections.
+2) Run the scriptRepeatExperimentResult.m to get pFTA classification results based on the optimized projections.
 
-Run the scriptAutoTestRand.m to get the pFTA classification results based on random projection.
+3) Run the scriptAutoTestRand.m to get the pFTA classification results based on random projection.
 
-To repeat the results on the random projection, please set the rand seed as "default".
+4) To repeat the results on the random projection, please set the rand seed as "default".
 
-To train your own projections, run ScriptAutoTrain.m
+5) To train your own projections, run ScriptAutoTrain.m
+
+6) The mtimesx tool is needed to run the algorithm to compute the multiplication of ND Array in matlab. I have enclosed this package in the source.
+
 
 
 # Copyright
