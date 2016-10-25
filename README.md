@@ -7,20 +7,13 @@ probabilistic First-Take-All feature for human activity recognition from sensor 
 
 1) A preprocessed Smpartphone-based Human Activity Dataset is provided to repeat the experiment presented in the paper.The original Dataset can be found at https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones In the experiment, the 30 subjects of the dataset are evenly split into 5 groups and the subject-based Leave-one-out cross-validation is employed for the performance evaluation. The final result is the average of the results of the above 5 runs.  Subject grouping policy is as follows,
 
-Group     Subjects
-
--------------------------
-
-Group1: 1 2 3 4 5 6
-
-Group2: 7 8 9 10 11 12
-
-Group3: 13 14 15 16 17 18
-
-Group4: 19 20 21 22 23 24
-
-Group5: 25 26 27 28 29 30
-
+| Groups        | Subjects      |
+| ------------- |:-------------:|
+| Group1     | 1 2 3 4 5 6 |
+| Group2      | 7 8 9 10 11 12      | 
+| Group3      | 13 14 15 16 17 18     | 
+| Group4      | 19 20 21 22 23 24    | 
+| Group5      | 25 26 27 28 29 30    | 
 
 2) Run the scriptRepeatExperimentResult.m to get pFTA classification results based on the optimized projections.
 
