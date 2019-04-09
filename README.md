@@ -1,7 +1,7 @@
 # pFTA
-probabilistic First-Take-All feature for human activity recognition from sensor signals. This is the matlab source code for the pFTA feature and the probabilistic Temporal Order Encoding Algorithm proposed in the paper
+probabilistic First-Take-All feature for human activity recognition from sensor signals. This is the matlab source code for the pFTA feature and the probabilistic Temporal Order Encoding Algorithm proposed in the paper:
 
-"Learning Compact Features for Human Activity Recognition via Probabilistic First-Take-All."
+J. Ye, G. Qi, N. Zhuang, H. Hu and K. A. Hua, "Learning Compact Features for Human Activity Recognition via Probabilistic First-Take-All," in IEEE Transactions on Pattern Analysis and Machine Intelligence.doi: 10.1109/TPAMI.2018.2874455 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8485314&isnumber=4359286
 
 # Instruction
 
